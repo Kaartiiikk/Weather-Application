@@ -17,7 +17,7 @@ export default function WeatherApp(){
      };
     return(
         <div>
-            <h4>Weather app by delta!</h4>
+            <h4> Welcome to WeatherSense !☁️🌡️</h4>
             <SearchBox updateinfo = {updateinfo}/>
             <Infobox info = {weatherinfo}/>
         </div>
